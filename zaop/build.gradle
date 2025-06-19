@@ -42,7 +42,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId 'com.github.huanxiang0220' // 组织ID
+                groupId 'com.github.zaop' // 组织ID
                 artifactId 'zaop-runtime' // 项目ID
                 version '1.0.1' // 版本号
             }
