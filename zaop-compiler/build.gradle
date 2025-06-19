@@ -37,10 +37,11 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.java
 
-                groupId 'com.github.zaop' // 组织ID
+                groupId 'com.mystery.zaop' // 组织ID
                 artifactId 'zaop-processor' // 项目ID
-                version '1.0.1' // 版本号
+                version '1.0.5' // 版本号
             }
         }
     }
+
 }
