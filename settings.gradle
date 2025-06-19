@@ -1,0 +1,11 @@
+include ':app'
+buildCache {
+    local {
+        directory = new File(rootDir, 'build-cache')
+        removeUnusedEntriesAfterDays = 30
+    }
+}
+include ':zaop-annation'
+include ':zaop'
+include ':zaop-compiler'
+include ':zFont'

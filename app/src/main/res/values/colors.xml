@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="normalBackground">#fff2f4f5</color>
+    <color name="background_material_light_1">#fafafa</color>
+
+    <!-- main -->
+    <color name="toolbar_color">#F53232</color>
+    <color name="toolbarTextColor">#fff</color>
+    <color name="colorGray">#a0a0a0</color>
+    <color name="colorGray_bg">#fafafa</color>
+    <color name="colorYellow">#ffbe33</color>
+    <color name="colorYellow75">#75ffbe33</color>
+    <color name="colorBlue">#03C16C</color>
+    <color name="color35aa11">#35aa11</color>
+    <color name="colorFaFaFa">#fafafa</color>
+    <color name="colorfefefe">#fefefe</color>
+
+    <color name="color2895d3">#2895d3</color>
+    <color name="colorb2b2b2">#b2b2b2</color>
+    <color name="color0d72ff">#0d72ff</color>
+    <color name="colorf19d00">#f19d00</color>
+    <color name="colora3a3a3">#a3a3a3</color>
+    <color name="color212121">#212121</color>
+    <color name="c_0074FE">#0074FE</color>
+    <color name="c_0074FE_95">#0D0074FE</color>
+    <color name="c_0074FE_90">#1A0074FE</color>
+
+    <color name="menu_serach_bg">#444</color>
+    <color name="colorUnderline">#444</color>
+    <color name="colorMenuBg">#222222</color>
+    <color name="colorBBB">#bbb</color>
+    <color name="color2991cc">#2991cc</color>
+    <color name="color2991cc75">#752991cc</color>
+    <color name="color59494">#e59494</color>
+    <color name="color9bd589">#9bd589</color>
+    <color name="color383838">#383838</color>
+    <color name="color2989cc">#2989cc</color>
+    <color name="colordcf86">#edcf86</color>
+    <color name="colorfb6438">#fb6438</color>
+    <color name="color318EFD">#318EFD</color>
+    <color name="color51cdff">#51cdff</color>
+
+    <color name="colorFFC90E">#FFC90E</color>
+    <color name="colorFFAEC9">#FFAEC9</color>
+    <color name="colorFF8D1E">#FF8D1E</color>
+    <color name="color0CAEE6">#0CAEE6</color>
+    <color name="colorE970DC">#E970DC</color>
+    <color name="color868686">#868686</color>
+
+    <!-- 光标颜色 -->
+    <color name="cursor">#F53232</color>
+
+    <color name="bgColor">#eeeeee</color>
+    <color name="bgColor_black_tooBar">#222222</color>
+    <color name="bgColor_black">#111111</color>
+    <color name="bgColor_black_3">#333333</color>
+    <color name="bgColor_1d1d1d">#1d1d1d</color>
+
+    <!--k线图相关-->
+    <color name="ma5">#ec5df1</color>
+    <color name="ma10">#ffbe33</color>
+    <color name="ma20">#51cdff</color>
+    <color name="ma120">#6e51ff</color>
+    <color name="ma250">#ff8451</color>
+
+    <color name="chartRed">#D83E21</color>
+    <color name="chartGreen">#059C39</color>
+    <color name="highlight">#C3C4C6</color>
+    <color name="nomorColor">#656A89</color>
+    <color name="borderLineColor">#2D2D34</color>
+    <color name="markerBgColor">#34384B</color>
+    <color name="markerBorderColor">#585862</color>
+    <color name="baseLineColor">#6180A5</color>
+    <color name="minuteLineColor">#4082F4</color>
+
+
+    <!-- 下划线相关颜色 -->
+    <color name="underline_color">#dddddd</color>
+    <color name="underline_color_4a4a4a">#4a4a4a</color>
+    <color name="underline_color_4a4a4a60">#604a4a4a</color>
+
+    <!--文字相关-->
+    <color name="color555">#555</color>
+    <color name="color888">#888888</color>
+    <color name="color1ca4eb">#1ca4eb</color>
+    <color name="color419dd3">#419dd3</color>
+    <color name="color010101">#010101</color>
+    <color name="color12e1cb">#12e1cb</color>
+    <color name="colorf6f6f6">#f6f6f6</color>
+    <color name="color339dff">#339dff</color>
+    <color name="color339dff80">#80339dff</color>
+    <color name="color4795d6">#4795d6</color>
+    <color name="color6ca2df">#6ca2df</color>
+    <color name="colorde6a6a">#de6a6a</color>
+    <color name="color6cd0df">#6cd0df</color>
+    <color name="color6aaae1">#6aaae1</color>
+    <color name="color3b8dff">#3b8dff</color>
+    <color name="color88baff">#88baff</color>
+    <color name="colorec5df1">#EC5DF1</color>
+
+    <!-- 按钮 -->
+    <color name="red">#cc2929</color>
+    <color name="red_press">#aa0101</color>
+    <color name="red_ripple">#bb1818</color>
+    <color name="gray">#f5f5f5</color>
+    <color name="gray_ripple">#e4e4e4</color>
+    <color name="yellow">#ffbe33</color>
+    <color name="yellow_press">#dd9c11</color>
+    <color name="yellow_ripple">#eead22</color>
+    <color name="red_deep">#991f1f</color>
+
+    <!--废弃-->
+    <color name="menu_item_white">#FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="color_fe9393">#fe9393</color>
+    <color name="color_feb993">#feb993</color>
+    <color name="color_fed38d">#fed38d</color>
+    <color name="color_8bdbe7">#8bdbe7</color>
+    <color name="color_8bb6e7">#8bb6e7</color>
+    <color name="color_9999e3">#9999e3</color>
+    <color name="color_398ad6">#398ad6</color>
+
+    <!-- 行情 -->
+    <color name="c_b1b1b1">#b1b1b1</color>
+    <color name="c_212121">#212121</color>
+    <color name="c_212121_30">#B2212121</color>
+    <color name="c_212121_70">#4D212121</color>
+    <color name="c_212121_75">#40212121</color>
+    <color name="c_212121_25">#BF212121</color>
+    <color name="c_868686">#868686</color>
+    <color name="c_868686_10">#E6868686</color>
+    <color name="c_868686_60">#66868686</color>
+    <color name="c_868686_80">#33868686</color>
+    <color name="c_868686_90">#1A868686</color>
+    <color name="c_868686_95">#0D868686</color>
+    <color name="c_f7f7f7">#F7F7F7</color>
+    <color name="c_e5e5e5">#E5E5E5</color>
+    <color name="c_DAB365">#DAB365</color>
+    <color name="c_3E9DFE">#3E9DFE</color>
+    <color name="c_525252">#525252</color>
+    <color name="c_ccc">#cccccc</color>
+    <color name="c_ffeaea">#FFEAEA</color>
+    <color name="c_003DFF">#003DFF</color>
+    <color name="c_35aa11">#35aa11</color>
+    <color name="c_f19d00">#f19d00</color>
+    <color name="c_88baff">#88baff</color>
+    <color name="c_3B8DFF">#3B8DFF</color>
+    <color name="c_69a8ff">#69a8ff</color>
+    <color name="c_9da5ff">#9DA5FF</color>
+    <color name="c_fa7f54">#fa7f54</color>
+    <color name="c_6141FF">#6141FF</color>
+    <color name="c_f0554f">#f0554f</color>
+    <color name="c_ff8451">#FF8451</color>
+    <color name="c_2D2AFE">#2D2AFE</color>
+    <color name="c_FB6B00">#FB6B00</color>
+    <color name="c_FB6B00_90">#1AFB6B00</color>
+    <color name="c_26FB6B00">#26FB6B00</color>
+    <color name="c_FFB347">#FFB347</color>
+    <color name="c_FF8740">#FF8740</color>
+    <color name="c_E7F0FB">#E7F0FB</color>
+    <color name="c_03C16C">#03C16C</color>
+    <color name="c_03C16C_95">#0D03C16C</color>
+    <color name="c_03C16C_70">#4D03C16C</color>
+    <color name="c_03C16C_80">#3303C16C</color>
+    <color name="c_03C16C_89">#1c03C16C</color>
+    <color name="c_03C16C_85">#2603C16C</color>
+    <color name="c_03C16C_50">#8003C16C</color>
+    <color name="c_EAF0FF">#EAF0FF</color>
+    <color name="c_FFF0E7">#FFF0E7</color>
+    <color name="c_F1E2FF">#F1E2FF</color>
+    <color name="c_9013FE">#9013FE</color>
+    <color name="c_333333">#333333</color>
+    <color name="c_ECEAFF">#ECEAFF</color>
+    <color name="c_FFE6DC">#FFE6DC</color>
+    <color name="c_FFD2D2">#FFD2D2</color>
+    <color name="c_D8D8D8">#D8D8D8</color>
+    <color name="c_6E61FF">#6E61FF</color>
+    <color name="c_FFA92F">#FFA92F</color>
+    <color name="c_FF6868">#FF6868</color>
+    <color name="c_DCF0FF">#DCF0FF</color>
+    <color name="c_FFF3F3">#FFF3F3</color>
+    <color name="c_EFF2FF">#EFF2FF</color>
+    <color name="c_F3FEFF">#F3FEFF</color>
+    <color name="c_FFF9F0">#FFF9F0</color>
+    <color name="c_FF5839">#FF5839</color>
+    <color name="c_8FB2FF">#8FB2FF</color>
+    <color name="c_C9D1E4">#C9D1E4</color>
+    <color name="c_FDA400">#FDA400</color>
+    <color name="c_FDA400_0">#00FDA400</color>
+    <color name="c_FFDEC5">#FFDEC5</color>
+    <color name="c_E7E7E7">#E7E7E7</color>
+    <color name="c_89A0D4">#89A0D4</color>
+    <color name="c_9EC6FD">#9EC6FD</color>
+    <color name="c_D4E8FF">#D4E8FF</color>
+    <color name="c_979797">#979797</color>
+    <color name="c_FFDAD1">#FFDAD1</color>
+    <color name="c_BDFACA">#BDFACA</color>
+    <color name="c_9E8BFE">#9E8BFE</color>
+    <color name="c_53BAFF">#53BAFF</color>
+    <color name="c_003CE8">#003CE8</color>
+    <color name="c_FFD496">#FFD496</color>
+    <color name="c_FF4D00">#FF4D00</color>
+    <color name="c_3B8EFF">#3B8EFF</color>
+    <color name="c_FF6464">#FF6464</color>
+    <color name="c_FFBEBB">#FFBEBB</color>
+    <color name="c_41D191">#41D191</color>
+    <color name="c_87E5BC">#87E5BC</color>
+    <color name="c_BF3232">#BF3232</color>
+    <color name="c_F03535">#F03535</color>
+    <color name="c_FF5F5F">#FF5F5F</color>
+    <color name="c_FF9494">#FF9494</color>
+    <color name="c_FF9494_10">#E6FF9494</color>
+    <color name="c_029352">#029352</color>
+    <color name="c_29AB71">#29AB71</color>
+    <color name="c_44D092">#44D092</color>
+    <color name="c_76DEAF">#76DEAF</color>
+    <color name="c_76DEAF_10">#E676DEAF</color>
+    <color name="c_FAE3FF">#FAE3FF</color>
+    <color name="c_C243F1">#C243F1</color>
+    <color name="c_FFEDD4">#FFEDD4</color>
+    <color name="c_2ACCFF">#2ACCFF</color>
+    <color name="c_EBF1FF">#EBF1FF</color>
+    <color name="c_DEFFF0">#DEFFF0</color>
+    <color name="c_A598FF">#A598FF</color>
+    <color name="c_FFBE33">#FFBE33</color>
+    <color name="c_5AB6FF">#5AB6FF</color>
+    <color name="c_5C9DE7">#5C9DE7</color>
+    <color name="c_7F899F">#7F899F</color>
+    <color name="c_F7C840">#F7C840</color>
+    <color name="c_FF8017">#FF8017</color>
+    <color name="c_DBEBFF">#DBEBFF</color>
+    <color name="c_FFF7EC">#FFF7EC</color>
+    <color name="c_E6B5FF">#E6B5FF</color>
+    <color name="c_976900">#976900</color>
+    <color name="c_976900_50">#7F976900</color>
+    <color name="c_FFF5CC">#FFF5CC</color>
+    <color name="c_FFF2D5">#FFF2D5</color>
+    <color name="c_FFF5CC_30">#B2FFF5CC</color>
+    <color name="c_FFF5CC_70">#4DFFF5CC</color>
+    <color name="c_B4B4B4_10">#19B4B4B4</color>
+    <color name="c_FFCC00_10">#19FFCC00</color>
+    <color name="c_FFCC00_00">#00FFCC00</color>
+    <color name="c_C0A35C">#C0A35C</color>
+    <color name="c_C0A35C_10">#19C0A35C</color>
+    <color name="c_DDCDA8">#DDCDA8</color>
+    <color name="c_000000_96">#0A000000</color>
+    <color name="c_BCBCBC">#BCBCBC</color>
+    <color name="c_CB2222">#CB2222</color>
+    <color name="c_04C16F">#04C16F</color>
+    <color name="c_04C16F_10">#E604C16F</color>
+    <color name="c_04C16F_20">#CC04C16F</color>
+    <color name="c_04C16F_40">#9904C16F</color>
+    <color name="c_04C16F_60">#6604C16F</color>
+    <color name="c_04C16F_70">#4D04C16F</color>
+    <color name="c_04C16F_80">#3304C16F</color>
+    <color name="c_04C16F_90">#1A04C16F</color>
+    <color name="c_04C16F_95">#0D04C16F</color>
+    <color name="c_039858">#039858</color>
+    <color name="c_820606">#820606</color>
+    <color name="c_990F0F">#990F0F</color>
+    <color name="c_B01818">#B01818</color>
+    <color name="c_C72020">#C72020</color>
+    <color name="c_DE2929">#DE2929</color>
+    <color name="c_026D40">#026D40</color>
+    <color name="c_027E49">#027E49</color>
+    <color name="c_038F53">#038F53</color>
+    <color name="c_039F5C">#039F5C</color>
+    <color name="c_04B066">#04B066</color>
+    <color name="c_02663c">#02663c</color>
+    <color name="c_BAD5E2">#BAD5E2</color>
+    <color name="c_F53232_95">#0DF53232</color>
+    <color name="c_F53232_10">#E6F53232</color>
+    <color name="c_F53232_85">#26F53232</color>
+    <color name="c_F53232_20">#CCF53232</color>
+    <color name="c_F53232_40">#99F53232</color>
+    <color name="c_F53232_60">#66F53232</color>
+    <color name="c_F53232_70">#4DF53232</color>
+    <color name="c_F53232_80">#33F53232</color>
+    <color name="c_F53232_90">#1AF53232</color>
+    <color name="c_797979">#797979</color>
+    <color name="c_3F51B5">#3F51B5</color>
+    <color name="c_2196F3">#2196F3</color>
+    <color name="c_00BCD5">#00BCD5</color>
+    <color name="c_FFEB3C">#FFEB3C</color>
+    <color name="c_FF9700">#FF9700</color>
+    <color name="c_FE5722">#FE5722</color>
+    <color name="c_4FD1FF">#4FD1FF</color>
+    <color name="c_1E1E1E_50">#7F1E1E1E</color>
+    <color name="c_FF6D00">#FF6D00</color>
+    <color name="c_D7D7D7">#D7D7D7</color>
+    <color name="c_F5FAFF">#F5FAFF</color>
+    <color name="c_FFF5F5">#FFF5F5</color>
+    <color name="c_757575">#757575</color>
+    <color name="c_FFFAED">#FFFAED</color>
+    <color name="c_B3883C">#B3883C</color>
+    <color name="c_D0A95E">#D0A95E</color>
+    <color name="c_FFEEE1">#FFEEE1</color>
+    <color name="c_586490">#586490</color>
+    <color name="c_F1F7FE">#F1F7FE</color>
+    <color name="c_E4E4E4">#E4E4E4</color>
+    <color name="c_FF9900">#FF9900</color>
+    <color name="c_FF9900_90">#1AFF9900</color>
+    <color name="c_0099FF">#0099FF</color>
+    <color name="c_e59494">#e59494</color>
+    <color name="c_e59494_10">#E6e59494</color>
+    <color name="c_026D40_10">#E6026D40</color>
+    <color name="c_9bd589_10">#E69bd589</color>
+    <color name="c_FFF8E8">#FFF8E8</color>
+    <color name="c_FFE5E5">#FFE5E5</color>
+    <color name="c_FFE5E5_10">#E6FFE5E5</color>
+    <color name="c_BDFFE2">#BDFFE2</color>
+    <color name="c_BDFFE2_10">#E6BDFFE2</color>
+    <color name="c_FEF5F5">#FEF5F5</color>
+    <color name="c_F4FCF8">#F4FCF8</color>
+    <color name="c_F5DDAD">#F5DDAD</color>
+    <color name="c_505488">#505488</color>
+    <color name="c_DFB980">#DFB980</color>
+    <color name="c_FFD8D8">#FFD8D8</color>
+    <color name="c_EBFFF6">#EBFFF6</color>
+    <color name="c_BFE7D5">#BFE7D5</color>
+    <color name="c_FBFBFB">#FBFBFB</color>
+    <color name="c_F2F2F2">#F2F2F2</color>
+    <color name="c_F3F5FF">#F3F5FF</color>
+    <color name="c_303E7A">#303E7A</color>
+    <color name="c_FFF4ED">#FFF4ED</color>
+    <color name="c_E5E6FF">#E5E6FF</color>
+    <color name="c_0012FF">#0012FF</color>
+    <color name="c_0012FF_70">#4D0012FF</color>
+    <color name="c_2371E8">#2371E8</color>
+    <color name="c_D7D9FF">#D7D9FF</color>
+    <color name="c_CBCEFF">#CBCEFF</color>
+    <color name="c_A7ABF8">#A7ABF8</color>
+    <color name="c_FAFFFD">#FAFFFD</color>
+    <color name="c_FF9B81">#FF9B81</color>
+    <color name="c_FF8484">#FF8484</color>
+    <color name="c_FFF9F9">#FFF9F9</color>
+    <color name="c_FF7878">#FF7878</color>
+    <color name="c_6BC7BD">#6BC7BD</color>
+    <color name="c_FF9F18">#FF9F18</color>
+    <color name="c_FFFCF7">#FFFCF7</color>
+    <color name="c_22A799">#22A799</color>
+    <color name="c_E9F1FF">#E9F1FF</color>
+    <color name="c_4275CD">#4275CD</color>
+    <color name="c_FB9999">#FB9999</color>
+    <color name="c_83E1B7">#83E1B7</color>
+    <color name="c_566786">#566786</color>
+    <color name="c_EEF3F7">#EEF3F7</color>
+    <color name="c_FFD4B5">#FFD4B5</color>
+    <color name="c_FFBD97">#FFBD97</color>
+    <color name="c_AF6338">#AF6338</color>
+    <color name="c_8EB6FD">#8EB6FD</color>
+    <color name="c_B3CEFF">#B3CEFF</color>
+    <color name="c_FEC4B5">#FEC4B5</color>
+    <color name="c_B24225">#B24225</color>
+    <color name="c_8CA1F9">#8CA1F9</color>
+    <color name="c_BDC9FF">#BDC9FF</color>
+    <color name="c_3954CA">#3954CA</color>
+    <color name="c_CFDFF9">#CFDFF9</color>
+    <color name="c_F4F8FF">#F4F8FF</color>
+    <color name="c_F2F5F8">#F2F5F8</color>
+    <color name="c_73D0C6">#73D0C6</color>
+    <color name="c_9EE3DD">#9EE3DD</color>
+    <color name="c_FFA766">#FFA766</color>
+    <color name="c_98712C">#98712C</color>
+    <color name="c_E0BA82">#E0BA82</color>
+    <color name="c_D81515">#D81515</color>
+    <color name="c_657082_60">#99657082</color>
+    <color name="c_F2F8FF">#F2F8FF</color>
+    <color name="c_CA4040">#CA4040</color>
+    <color name="c_12161E">#12161E</color>
+    <color name="c_0C0E12">#0C0E12</color>
+
+    <color name="home_search_ba">#1E470202</color>
+
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="pickerview_bgColor_default">#FFFFFFFF</color>
+
+    <color name="card_ColorStart">#CCE5E5E5</color>
+    <color name="card_ColorEnd">#03E5E5E5</color>
+
+    <color name="color790fff">#790FFF</color>
+    <color name="colorc809cb">#C809CB</color>
+
+    <color name="colorEC1E1E">#EC1E1E</color>
+    <color name="colorFFE9E9">#FFE9E9</color>
+    <color name="colorE4F0FF">#E4F0FF</color>
+    <color name="colorFFEFE6">#FFEFE6</color>
+    <color name="colorFF6307">#FF6307</color>
+    <color name="colorEFEDFF">#EFEDFF</color>
+    <color name="color9013FE">#9013FE</color>
+    <color name="c_f4">#f4f4f4</color>
+    <color name="colorf4f4f4">#f4f4f4</color>
+    <color name="c_212121_50">#80212121</color>
+    <color name="c_212121_10">#E6212121</color>
+    <color name="color282828">#282828</color>
+    <color name="color5139F2">#5139F2</color>
+    <color name="colorEEF6FF">#EEF6FF</color>
+    <color name="colorFFF1F1">#FFF1F1</color>
+    <color name="c_000000_20">#33000000</color>
+    <color name="c_000000_70">#4D000000</color>
+    <color name="c_000000_30">#B2000000</color>
+    <color name="c_000000_40">#99000000</color>
+    <color name="c_000000_80">#33000000</color>
+    <color name="c_000000_90">#1A000000</color>
+    <color name="c_000000_60">#66000000</color>
+    <color name="c_333333_40">#99333333</color>
+    <color name="c_333333_75">#40333333</color>
+    <color name="c_333333_50">#80333333</color>
+    <color name="c_EEEEEE_84">#29EEEEEE</color>
+    <color name="bgColor_FF6466">#FF6466</color>
+    <color name="colorF53232">#F53232</color>
+    <color name="colorF7F7F7">#F7F7F7</color>
+    <color name="color525252">#525252</color>
+    <color name="colorB1B1B1">#B1B1B1</color>
+    <color name="colorCECECE">#CECECE</color>
+    <color name="color666666">#666666</color>
+    <color name="colorFF4644">#FF4644</color>
+    <color name="color000000">#000000</color>
+    <color name="colorE5E5E5">#E5E5E5</color>
+    <color name="colorFF6466">#FF6466</color>
+
+    <color name="colorFFF9F4">#FFF9F4</color>
+    <color name="colorD36A1C">#D36A1C</color>
+    <color name="colorF3F9FF">#F3F9FF</color>
+    <color name="color246EC5">#246EC5</color>
+    <color name="colorFCF7FF">#FCF7FF</color>
+    <color name="color7C33A7">#7C33A7</color>
+    <color name="color1D8154">#1D8154</color>
+    <color name="colorF3FFFA">#F3FFFA</color>
+    <color name="colorF7FBFF">#F7FBFF</color>
+    <color name="color313E55">#313E55</color>
+    <color name="color313E55_60">#66313E55</color>
+    <color name="colorEEF3F8">#EEF3F8</color>
+    <color name="colorFFFBFB">#FFFBFB</color>
+    <color name="color2C5DC5">#2C5DC5</color>
+    <color name="color1F7BE9">#1F7BE9</color>
+    <color name="color49A0FF">#49A0FF</color>
+    <color name="colorFFEA30">#FFEA30</color>
+    <color name="colorF3D9D9">#F3D9D9</color>
+    <color name="color818EA3">#818EA3</color>
+    <color name="colorFFD9D2">#FFD9D2</color>
+    <color name="colorFFF8F7">#FFF8F7</color>
+
+    <color name="colorFF908A">#FF908A</color>
+    <color name="color5DE59A">#5DE59A</color>
+    <color name="color98712C">#98712C</color>
+    <color name="colorFE8740">#FE8740</color>
+    <color name="color40BE7E">#40BE7E</color>
+    <color name="colorFF5D5D">#FF5D5D</color>
+    <color name="colorC496FF">#C496FF</color>
+
+
+    <!--4.5.4-->
+    <color name="transparent">#00000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorwhite5">#F2FFFFFF</color>
+    <color name="colorWhite10">#E6FFFFFF</color>
+    <color name="colorWhite20">#CCFFFFFF</color>
+    <color name="colorWhite30">#B2ffffff</color>
+    <color name="colorWhite40">#99ffffff</color>
+    <color name="colorWhite50">#80ffffff</color>
+    <color name="colorWhite60">#66ffffff</color>
+    <color name="colorWhite70">#4Dffffff</color>
+    <color name="colorWhite80">#33FFFFFF</color>
+    <color name="colorWhite85">#26ffffff</color>
+    <color name="colorWhite90">#1AFFFFFF</color>
+    <color name="colorWhite93">#12FFFFFF</color>
+    <color name="colorWhite95">#0dFFFFFF</color>
+    <color name="colorWhite00">#00ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack80">#33000000</color>
+    <color name="colorBlack50">#80000000</color>
+    <color name="colorBlack85">#26000000</color>
+    <color name="colorBlack74">#42000000</color>
+
+    <color name="color0066FF">#0066FF</color>
+    <color name="color0066FF_10">#190066FF</color>
+    <color name="color33ff8740">#33ff8740</color>
+
+
+    <!--背景色-->
+    <color name="B1">#FFFFFF</color>
+    <color name="B2">#F7F7F7</color>
+    <color name="B3">#F4F4F4</color>
+    <color name="B4">#212121</color>
+    <!--间隔、列表页背景色-->
+    <color name="B_4">#F7F7F7</color>
+    <color name="B_share_image">#E5E5E5</color>
+
+    <color name="B_5">#FFF1F1</color>
+    <color name="B_6">#03C16C</color>
+    <color name="B_7">#282828</color>
+    <color name="B_8">#FFF8E8</color>
+    <color name="B_9">#F7F7F7</color>
+    <color name="B_10">#B2000000</color>
+    <color name="B_14">#868686</color>
+    <color name="B_16">#FB6B00</color>
+    <color name="B_F2F7FE">#E6F2F7FE</color>
+    <!--成交统计占比颜色-->
+    <color name="B_15">#B1B1B1</color>
+    <!--gif、广告 标签背景色-->
+    <color name="B_11">#80000000</color>
+    <color name="B_12">#B1B1B1</color>
+    <color name="B_13">#80212121</color>
+
+    <color name="B_17">#E5E5E5</color>
+    <color name="B_18">#F7F7F7</color>
+
+    <!--横幅背景色-->
+    <color name="B_HF">#F3F5FF</color>
+    <!--路演标签背景色-->
+    <color name="B_LY_1">#F53232</color>
+    <color name="B_LY_2">#FF8740</color>
+    <color name="B_LY_3">#0074FE</color>
+
+    <color name="BL_1">#B1B1B1</color>
+    <color name="BL_2">#B1B1B1</color>
+
+    <!--自选涨跌效果背景色-->
+    <color name="B_zd_up_1">#FFDFDF</color>
+    <color name="B_zd_up_2">#00FFDFDF</color>
+    <color name="B_zd_down_1">#BDFFE3</color>
+    <color name="B_zd_down_2">#00BDFFE3</color>
+    <color name="B_zd_top">#F2F8FF</color>
+
+    <!--逐笔涨跌背景色-->
+    <color name="B_zb_up">#1AF53232</color>
+    <color name="B_zb_down">#1A03C16C</color>
+
+    <!--买盘经济背景-->
+    <color name="B_MP_1">#0DF53232</color>
+    <!--    <color name="B_MP_2">#FFFFFF</color>-->
+    <color name="B_MP_3">#0D03C16C</color>
+    <color name="B_MP_4">#FF5D5D</color>
+    <color name="B_MP_5">#40BE7E</color>
+
+    <!--相关板块 公司估值卡片背景色-->
+    <color name="B_XGBK_1">#F4F4F4</color>
+    <color name="D_XGBK_1">#B1B1B1</color>
+
+    <!--龙虎榜上榜理由背景色-->
+    <color name="B_LHB_1">#EEF3F8</color>
+    <color name="B_LHB_2">#FFF1F1</color>
+    <color name="B_LHB_3">#EBFFF6</color>
+
+    <!--技术分析背景色-->
+    <color name="B_JSFX_1">#F4F4F4</color>
+    <color name="B_JSFX_2">#DBEBFF</color>
+    <color name="B_JSFX_3">#FFF7EC</color>
+
+    <!--机构预测背景色-->
+    <color name="B_JGYC_1">#F4F8FF</color>
+
+    <!--评级分析背景色-->
+    <color name="B_PJFX_1">#E5E5E5</color>
+    <color name="B_PJFX_2">#FFB347</color>
+
+    <!--第一印象颜色-->
+    <color name="B_DYYX_1">#EEF3F8</color>
+
+    <!--B股H股标签背景颜色-->
+    <color name="B_BH_1">#E0EEFF</color>
+    <color name="B_BH_2">#FFEEE1</color>
+
+    <!--主题按钮背景颜色-->
+    <color name="B_DY_1">#212121</color>
+    <color name="B_DY_2">#B1B1B1</color>
+
+    <!--高亮弹窗背景-->
+    <color name="B_HIGH_1">#E6FFFFFF</color>
+
+    <!--K线设置KSwitchButton452颜色-->
+    <color name="B_KSET_1">#566786</color>
+
+    <!--南向资金背景-->
+    <color name="B_NXZJ">#F7F7F7</color>
+
+
+    <color name="B_19">#F6F9FB</color>
+    <!--    市场情绪-->
+    <color name="B_20">#b3F53232</color>
+    <color name="B_21">#00FFEDED</color>
+    <color name="B_22">#FFEDED</color>
+    <color name="B_23">#00FFF3EC</color>
+    <color name="B_24">#FFF3EC</color>
+    <color name="B_25">#00D7E9FF</color>
+    <color name="B_26">#D7E9FF</color>
+    <color name="B_27">#00E6FEFE</color>
+    <color name="B_28">#E6FEFE</color>
+    <color name="B_29">#00EDF8EF</color>
+    <color name="B_30">#EDF8EF</color>
+    <!--    市场情绪-->
+
+    <color name="B_31">#33209899</color>
+    <color name="B_32">#EEF3F7</color>
+    <color name="B_33">#19212121</color>
+    <color name="B_34">#1904C16F</color>
+    <color name="B_35">#19F53232</color>
+    <color name="B_36">#FFFFFF</color>
+    <color name="B_37">#FF9347</color>
+    <color name="B_38">#212121</color>
+    <color name="B_39">#4D03C16C</color>
+    <color name="B_40">#E6FFFFFF</color>
+    <color name="B_41">#4DF53232</color>
+    <color name="B_42">#ffffff</color>
+    <color name="B_43">#0d000000</color>
+    <color name="B_44">#EEF3F7</color>
+    <color name="B_46">#566786</color>
+    <color name="B_47">#00ffffff</color>
+    <color name="B_48">#3304C16F</color>
+    <color name="B_49">#FF424242</color>
+    <color name="B_50">#FFFFFF</color>
+    <color name="B_51">#00E5E5E5</color>
+    <color name="B_52">#CCE5E5E5</color>
+
+    <color name="B_53">#FF9B81</color>
+    <color name="B_54">#FFFBFB</color>
+    <color name="B_55">#F3FFFA</color>
+    <color name="B_56">#FFF3F3</color>
+    <color name="B_57">#F7FBFF</color>
+    <color name="B_58">#FFF9F4</color>
+    <color name="B_59">#F7F7F7</color>
+    <color name="B_60">#39E097</color>
+    <color name="B_61">#04B066</color>
+    <color name="B_62">#039F5C</color>
+    <color name="B_63">#038F53</color>
+    <color name="B_64">#027E49</color>
+    <color name="B_65">#026D40</color>
+    <color name="B_66">#BAD5E2</color>
+    <color name="B_67">#F53232</color>
+    <color name="B_68">#DE2929</color>
+    <color name="B_69">#C72020</color>
+    <color name="B_70">#B01818</color>
+    <color name="B_71">#990F0F</color>
+    <color name="B_72">#820606</color>
+    <color name="B_73">#CB2222</color>
+    <color name="B_74">#FFFFFF</color>
+    <color name="B_75">#FFD8D8</color>
+    <color name="B_76">#FFF1F1</color>
+    <color name="B_78">#BFE7D5</color>
+    <color name="B_79">#EBFFF6</color>
+    <color name="B_80">#E7E7E7</color>
+    <color name="B_81">#FBFBFB</color>
+    <color name="B_82">#f6f6f6</color>
+    <color name="B_83">#6604C16F</color>
+    <color name="B_84">#9904C16F</color>
+    <color name="B_85">#CC04C16F</color>
+    <color name="B_86">#CCF53232</color>
+    <color name="B_87">#99F53232</color>
+    <color name="B_88">#66F53232</color>
+    <color name="B_89">#33F53232</color>
+    <color name="B_90">#D7D7D7</color>
+
+    <color name="B_91">#b3FF8740</color>
+    <color name="B_92">#F3F9FF</color>
+    <color name="B_93">#FCF7FF</color>
+    <color name="B_94">#FFF9F4</color>
+
+    <color name="B_95">#00FFFFFF</color>
+    <color name="B_96">#FFD7BF</color>
+
+    <color name="B_97">#00FFFFFF</color>
+    <color name="B_98">#BCFBDF</color>
+
+    <color name="B_99">#00FFFFFF</color>
+    <color name="B_100">#EFCAFF</color>
+
+    <color name="B_101">#00FFFFFF</color>
+    <color name="B_102">#BFD8FF</color>
+
+    <color name="B_103">#FFF1F1</color>
+    <color name="B_104">#EEF6FF</color>
+
+    <color name="B_105">#FF9595</color>
+
+    <color name="B_106">#00282828</color>
+
+    <color name="BKSL_1">#818EA3</color>
+    <color name="BKS_1">#EEF3F8</color>
+    <color name="BKS_2">#FFFFFF</color>
+    <color name="BKS_3">#66313E55</color>
+    <color name="BKS_10">#FFF1F1</color>
+
+    <!--KScrollTabs450渐变-->
+    <color name="BKS_4">#14313E55</color>
+    <color name="BKS_5">#05313E55</color>
+    <color name="BKS_6">#03313E55</color>
+    <color name="BKS_7">#1e898989</color>
+    <color name="BKS_8">#19898989</color>
+    <color name="BKS_9">#14898989</color>
+
+    <!--分页指示器-->
+    <color name="BI_1">#E5E5E5</color>
+    <!--实名认证-->
+    <color name="BSMRZ">#E5E5E5</color>
+    <!--主题色-->
+    <color name="Theme1">#F53232</color>
+    <color name="Theme2">#FC8E8E</color>
+    <color name="Theme3">#FFF1F1</color>
+    <color name="Theme4">#03C16C</color>
+    <!--字体颜色-->
+    <color name="T1">#212121</color>
+    <color name="T2">#868686</color>
+    <color name="T3">#525252</color>
+    <color name="T4">#000000</color>
+    <color name="T5">#333333</color>
+    <color name="T6">#B1B1B1</color>
+    <color name="T7">#4D000000</color>
+    <color name="T8">#212121</color>
+    <color name="T9">#B1B1B1</color>
+    <color name="T10">#303E7A</color>
+    <color name="T11">#868686</color>
+    <color name="T_8">#F53232</color>
+    <color name="T_9">#FFFFFF</color>
+    <color name="T_10">#303E7A</color>
+    <color name="T_11">#A56F11</color>
+    <color name="T_12">#FFFFFF</color>
+    <color name="T_13">#03C16C</color>
+    <color name="T_14">#FC8E8E</color>
+    <color name="T_15">#303E7A</color>
+    <color name="T_16">#0099FF</color>
+    <color name="T_17">#CCCCCC</color>
+    <color name="T_19">#FF8740</color>
+    <color name="T_20">#0074FE</color>
+    <color name="T_21">#98712C</color>
+
+    <color name="T_22">#FFFFFF</color>
+    <color name="T_23">#209899</color>
+
+    <color name="T_24">#B1B1B1</color>
+
+    <color name="T_25">#212121</color>
+
+    <color name="T_30">#566786</color>
+    <color name="T_31">#790FFF</color>
+
+    <!--F10Tab字体颜色-->
+    <color name="T_18">#212121</color>
+    <color name="T_212121">#212121</color>
+    <!--横幅字体颜色-->
+    <color name="T_HF">#303E7A</color>
+    <!--个股顶部字体颜色-->
+    <color name="T_K">#303E7A</color>
+    <!--互动问答字体颜色-->
+    <color name="T_QA">#566786</color>
+    <!--研报机构字体颜色-->
+    <color name="T_YB_JG">#566786</color>
+    <!--技术分析字体颜色-->
+    <color name="T_JSFX_1">#7F899F</color>
+    <color name="T_JSFX_2">#0074FE</color>
+    <color name="T_JSFX_3">#5C9DE7</color>
+    <color name="T_JSFX_4">#FFA92E</color>
+    <color name="T_JSFX_5">#FF8017</color>
+    <!--数据模块分享弹窗 收藏应用字体颜色-->
+    <color name="T_share_collection">#FB6B00</color>
+
+    <color name="T_84">#FFFFFF</color>
+    <color name="T_85">#1D8154</color>
+    <color name="T_86">#0074FE</color>
+    <color name="T_87">#B2212121</color>
+    <color name="T_88">#B2212121</color>
+    <color name="T_89">#80212121</color>
+    <color name="T_90">#04C16F</color>
+    <color name="T_91">#7B8EB3</color>
+    <color name="T_92">#FFF53232</color>
+    <color name="T_93">#B3FFFFFF</color>
+    <color name="TKS_1">#313E55</color>
+    <color name="TKS_2">#313E55</color>
+    <color name="TKS_3">#313E55</color>
+    <color name="TKS_4">#566786</color>
+    <color name="TKS_5">#313E55</color>
+    <!-- 列表分隔线  -->
+    <color name="listDividerColor">#EEEEEE</color>
+    <!--分割线颜色-->
+    <color name="D1">#CCCCCC</color>
+    <color name="D2">#E5E5E5</color>
+    <color name="D3">#EEEEEE</color>
+    <color name="D4">#DDDDDD</color>
+    <color name="D5">#F4F4F4</color>
+    <color name="D6">#F7F7F7</color>
+    <color name="D7">#CCCCCC</color>
+    <color name="D8">#E5E5E5</color>
+    <color name="D9">#B1B1B1</color>
+    <color name="D10">#DDDDDD</color>
+    <color name="D11">#E5E5E5</color>
+    <color name="D12">#E5E5E5</color>
+    <color name="D_7">#868686</color>
+    <color name="D_8">#E4E4E4</color>
+    <color name="D_9">#CCCCCC</color>
+    <color name="D_10">#26FFFFFF</color>
+    <color name="D_11">#1A000000</color>
+    <!--行业对比图表-->
+    <color name="D_HYDB1">#CFDFF9</color>
+    <!--K线图颜色-->
+    <color name="K1">#0074FE</color>
+    <color name="K2">#FF8740</color>
+    <color name="K3">#C809CB</color>
+    <color name="K4">#003CE8</color>
+    <color name="K5">#F0554F</color>
+    <color name="K6">#790FFF</color>
+    <color name="K7">#FE7CC8</color>
+
+    <color name="K8">#C9D1E4</color>
+    <color name="K9">#C496FF</color>
+
+    <!--分时图盘前盘后背景色-->
+    <color name="K13">#260074FE</color>
+
+    <color name="K_TK">#E5E5E5</color>
+
+
+    <!--普通图表颜色-->
+    <color name="CL1">#0074FE</color>
+    <color name="CL1_90">#1A0074FE</color>
+    <color name="CL2">#B1B1B1</color>
+    <color name="CL3">#FF8740</color>
+    <color name="CL4">#FB9999</color>
+    <color name="CL5">#83E1B7</color>
+    <color name="CL6">#4275CD</color>
+    <color name="CL7">#FB6B00</color>
+    <color name="CL7_90">#1AFB6B00</color>
+    <color name="CL8">#FFB347</color>
+    <color name="CL9">#9E8BFE</color>
+    <color name="CL10">#53BAFF</color>
+    <color name="CL11">#8FB2FF</color>
+    <color name="CL12">#FFC4A2</color>
+    <color name="CL13">#9EC6FD</color>
+    <color name="CL14">#49A0FF</color>
+    <color name="CL15">#4FD1FF</color>
+    <color name="CL16">#F53232</color>
+
+
+    <color name="CL_1">#4AFB6B00</color>
+    <color name="CL_2">#00FB6B00</color>
+
+    <color name="CL_3">#33F53232</color>
+    <color name="CL_3_s">#33F53232</color>
+    <color name="CL_3_e">#00F53232</color>
+
+    <color name="CL_4">#3303C16C</color>
+    <color name="CL_4_s">#3303C16C</color>
+    <color name="CL_4_e">#0003C16C</color>
+
+    <color name="CL_5_s">#33868686</color>
+    <color name="CL_5_e">#00868686</color>
+
+
+    <!--柱状图图表颜色-->
+    <color name="CB1">#FB9999</color>
+    <color name="CB2">#83E1B7</color>
+
+    <color name="K10">#FFB347</color>
+    <!--高亮线-->
+    <color name="K11">#000000</color>
+
+    <color name="K_1">#FFA766</color>
+    <color name="K_2">#0074FE</color>
+
+    <!--分时图颜色-->
+    <color name="F1">#0074FE</color>
+    <color name="F2_80">#330074FE</color>
+    <!--阴影颜色-->
+    <color name="shadow1_100">#00E5E5E5</color>
+    <color name="shadow1_50">#80E5E5E5</color>
+    <color name="shadow1_20">#CCE5E5E5</color>
+    <color name="shadow1_99">#03E5E5E5</color>
+    <!--盈利能力颜色-->
+    <color name="CL_YLNL1">#FFBD97</color>
+    <color name="CL_YLNL2">#FFD4B5</color>
+    <color name="CL_YLNL3">#AF6338</color>
+    <!--成长能力颜色-->
+    <color name="CL_CZNL1">#8EB6FD</color>
+    <color name="CL_CZNL2">#B3CEFF</color>
+    <color name="CL_CZNL3">#4275CD</color>
+    <!--现金流量颜色-->
+    <color name="CL_XJLL1">#FF9B81</color>
+    <color name="CL_XJLL2">#FEC4B5</color>
+    <color name="CL_XJLL3">#B24225</color>
+    <!--运营能力颜色-->
+    <color name="CL_YYNL1">#8CA1F9</color>
+    <color name="CL_YYNL2">#BDC9FF</color>
+    <color name="CL_YYNL3">#3954CA</color>
+    <!--资产负债表颜色-->
+    <color name="CL_ZCFZB1">#FF9B81</color>
+    <color name="CL_ZCFZB2">#FEC4B5</color>
+    <color name="CL_ZCFZB3">#73D0C6</color>
+    <color name="CL_ZCFZB4">#9EE3DD</color>
+
+    <!--item触摸效果背景-->
+    <color name="gray_press">#b3b3b3</color>
+    <color name="colorGray_light">#f5f5f5</color>
+    <!--4.5.4-->
+
+    <!--分页指示器-->
+    <color name="indicator1">#E5E5E5</color>
+    <color name="indicator_2">#868686</color>
+    <color name="indicator_3">#E5E5E5</color>
+
+    <!--轮播广告指示器-->
+    <color name="XI_1">#4DFFFFFF</color>
+    <color name="XI_2">#FFFFFF</color>
+
+    <!--自选推送开关通知-->
+    <color name="B_Push_tip">#1AFF9900</color>
+    <color name="T_Push_tip">#FF9900</color>
+
+    <color name="KScrollTabs1">#EEF3F8</color>
+    <color name="KScrollTabs2">#313E55</color>
+    <color name="KScrollTabs3">#FFFFFF</color>
+    <color name="KScrollTabs4">#818EA3</color>
+    <color name="KScrollTabs5">#FFFFFF</color>
+
+    <!--个股溢价颜色-->
+    <color name="T_YJ">#313E55</color>
+    <color name="B_YJ">#EEF3F8</color>
+
+    <!--十档逐笔切换控件颜色-->
+    <color name="B_SD_ZB_1">#EEF3F8</color>
+    <color name="T_SD_ZB_1">#313E55</color>
+
+    <!--涨跌分布 超、大、中、小色块背景色-->
+    <color name="B_ZJCJFB_UP1">#BF3232</color>
+    <color name="B_ZJCJFB_UP2">#F03535</color>
+    <color name="B_ZJCJFB_UP3">#FF5F5F</color>
+    <color name="B_ZJCJFB_UP4">#FF9494</color>
+    <color name="B_ZJCJFB_DOWN1">#029352</color>
+    <color name="B_ZJCJFB_DOWN2">#29AB71</color>
+    <color name="B_ZJCJFB_DOWN3">#44D092</color>
+    <color name="B_ZJCJFB_DOWN4">#76DEAF</color>
+
+    <!--pb分布-->
+    <color name="B_PB_DISTRIBUTION_1">#2C5DC5</color>
+    <color name="B_PB_DISTRIBUTION_2">#1F7BE9</color>
+    <color name="B_PB_DISTRIBUTION_3">#49A0FF</color>
+    <color name="B_PB_DISTRIBUTION_4">#4FD1FF</color>
+    <color name="B_PB_DISTRIBUTION_5">#FFEA30</color>
+    <color name="B_PB_DISTRIBUTION_6">#F3D9D9</color>
+
+    <color name="B_PB_DISTRIBUTION_7">#B1B1B1</color>
+    <!--F10顶部Tab颜色-->
+    <color name="B_TTAG">#566786</color>
+
+    <!--资讯语音播报-->
+    <color name="B_YYBB_1">#FFFFFF</color>
+    <color name="B_YYBB_2">#0074FE</color>
+    <color name="B_YYBB_3">#0D0074FE</color>
+    <!--资讯语音播报弹窗阴影-->
+    <color name="B_YYBB_4">#4D000000</color>
+    <color name="B_YYBB_5">#CCFFFFFF</color>
+    <!--资讯语音播报弹窗背景-->
+    <color name="B_YYBB_6">#FFFFFF</color>
+
+    <color name="B_FF5D5D">#FF5D5D</color>
+    <color name="B_40BE7E">#40BE7E</color>
+    <color name="B_FFF1F1">#FFF1F1</color>
+    <color name="B_CA4040_50">#80CA4040</color>
+
+    <!--快讯、海报分享颜色-->
+    <color name="C_F53232">#F53232</color>
+
+    <!--底部弹窗阴影-->
+    <color name="B_BOTTOM_1">#26000000</color>
+
+    <!--会议报名类型选项背景-->
+    <color name="B_HYBM_1">#566786</color>
+    <color name="B_HYBM_2">#818EA3</color>
+
+    <!--文档上传进度条背景颜色-->
+    <color name="B_WDJD_1">#E5E5E5</color>
+
+    <!--会议室背景颜色-->
+    <color name="B_HY_1">#040506</color>
+
+    <!--会议室弹窗背景-->
+    <color name="B_HYTC_1">#1A202D</color>
+    <color name="B_HYTC_2">#303643</color>
+    <color name="B_HYTC_3">#2A3446</color>
+
+    <color name="B_107">#ff0063FF</color>
+    <color name="B_108">#000063FF</color>
+    <color name="B_109">#3C3C3C</color>
+    <color name="T_26">#707070</color>
+    <color name="B_110">#12161E</color>
+    <color name="T_27">#8A95AA</color>
+    <color name="B_111">#1F2531</color>
+    <color name="T_28">#FF7524</color>
+
+    <color name="T_29">#A7A7A7</color>
+    <color name="B_112">#3F66A7</color>
+    <color name="B_113">#1AFF8740</color>
+    <color name="B_114">#1A0074FE</color>
+    <color name="B_115">#1A868686</color>
+    <color name="B_116">#CC000000</color>
+    <color name="B_117">#BC6FFF</color>
+    <color name="B_118">#E6FFFFFF</color>
+
+
+    <color name="B_119">#00CCCCCC</color>
+    <color name="B_120">#10CCCCCC</color>
+    <color name="B_121">#20CCCCCC</color>
+    <color name="B_122">#30CCCCCC</color>
+    <color name="B_123">#50CCCCCC</color>
+    <color name="B_124">#140074FE</color>
+    <color name="B_125">#1a03c16c</color>
+    <color name="B_126">#B3000000</color>
+    <color name="B_127">#EEF3F7</color>
+    <color name="B_128">#B3FFFFFF</color>
+    <color name="B_129">#99FFFFFF</color>
+
+    <color name="B_130">#4DF53232</color>
+    <color name="B_131">#40F53232</color>
+    <color name="B_132">#33F53232</color>
+    <color name="B_133">#26F53232</color>
+    <color name="B_134">#1AF53232</color>
+    <color name="B_135">#0DF53232</color>
+    <color name="B_142">#FFEEEEEE</color>
+    <color name="B_136">#5903C16C</color>
+    <color name="B_137">#4D03C16C</color>
+    <color name="B_138">#4003C16C</color>
+    <color name="B_139">#3303C16C</color>
+    <color name="B_140">#2603C16C</color>
+    <color name="B_141">#1A03C16C</color>
+
+    <color name="B_143">#26000000</color>
+    <color name="B_144">#1A03C16C</color>
+    <color name="B_145">#FFF6F8F9</color>
+    <color name="B_146">#0FF53232</color>
+    <color name="B_isTop">#F6FAFF</color>
+    <color name="B_148">#FFF5F8F9</color>
+
+    <!--阅读设置选项按钮背景色-->
+    <color name="B_YDSZ_1">#EEF3F7</color>
+    <color name="T_YDSZ_1">#212121</color>
+    <!--路演通知栏颜色-->
+    <color name="notification_title">#212121</color>
+    <!--预约会议选中title颜色-->
+    <color name="T_YYHY">#0074FE</color>
+    <!--预约会议选中描述颜色-->
+    <color name="T_YYHY_2">#0074FE</color>
+    <!--实名认证按钮字体颜色-->
+    <color name="T_SMRZ_1">#868686</color>
+    <!--路演日历筛选背景-->
+    <color name="B_LYRL_1">#1AF53232</color>
+    <!--路演日历无会议文字颜色-->
+    <color name="T_LYRL_1">#8D8D8D</color>
+    <!--路演标签背景色-->
+    <color name="B_LY_4">#525252</color>
+    <color name="B_LY_5">#868686</color>
+
+    <!--头像边框颜色-->
+    <color name="D_TX_1">#0D000000</color>
+    <!--路演号详情-股票背景色-->
+    <color name="B_LYH_1">#E6FFFFFF</color>
+    <color name="B_LYH_2">#EEF3F7</color>
+    <color name="B_LYH_3">#1AF53232</color>
+    <!--路演号关注按钮文字颜色-->
+    <color name="T_LYH_1">#525252</color>
+    <!--路演号认领二维码背景颜色-->
+    <color name="B_EWM_1">#E5E5E5</color>
+    <!--路演报名弹窗颜色-->
+    <color name="B_LYBM_1">#E5E5E5</color>
+    <!--资讯投资日志-->
+    <color name="T_TZRZ_1">#212121</color>
+    <color name="T_TZRZ_2">#868686</color>
+    <color name="B_TZRZ_1_1">#F0FFEBEB</color>
+    <color name="B_TZRZ_1_2">#4DFFEBEB</color>
+    <color name="B_TZRZ_2_1">#FCD9E3FF</color>
+    <color name="B_TZRZ_2_2">#4ADEE7FF</color>
+    <color name="B_TZRZ_3_1">#F0E5D9FF</color>
+    <color name="B_TZRZ_3_2">#45E9DEFF</color>
+    <color name="B_TZRZ_4_1">#FCFFEBC3</color>
+    <color name="B_TZRZ_4_2">#4FFFF0CA</color>
+    <color name="B_TZRZ_5_1">#F0DBF2FF</color>
+    <color name="B_TZRZ_5_2">#66E8F6FF</color>
+    <color name="B_TZRZ_6_1">#FCFFDCFB</color>
+    <color name="B_TZRZ_6_2">#30FFDEF4</color>
+    <!--皮肤切换-->
+    <color name="T_SKIN_1">#000000</color>
+    <color name="C_0074FE_3F66A7">#0074FE</color>
+    <!--阴影颜色-->
+    <color name="S1">#40000000</color>
+    <!--快讯列表关联链接背景色-->
+    <color name="B_KX_LINK">#1A0074FE</color>
+    <!--数据子页面搜索栏-->
+    <color name="D_DATA_SEARCH">#A6B0BA</color>
+    <color name="S_DATA_SEARCH">#F2F2F5</color>
+    <!--反馈类型未选中边框颜色-->
+    <color name="S_FEEDBACK_TYPE">#868686</color>
+
+    <!-- ToggleButton配置颜色   -->
+    <color name="TonColor">#03C16C</color>
+    <color name="ToffColor">#E5E5E5</color>
+
+    <!-- 按钮颜色   -->
+    <color name="Btn_B1">#212121</color>
+    <color name="Btn_T1">#FFFFFF</color>
+    <color name="Btn_B2">#B1B1B1</color>
+    <color name="Btn_T2">#868686</color>
+    <!--  #868686 -> #525252  -->
+    <color name="Btn_T3">#868686</color>
+
+    <!-- Label颜色   -->
+    <color name="Lale_1">#1A0074FE</color>
+
+    <!-- ControllableButton颜色   -->
+    <color name="CBtn_B1">#B1B1B1</color>
+    <color name="CBtn_B2">#212121</color>
+    <color name="CBtn_T1">#FFFFFF</color>
+
+    <color name="TLink">#303E7A</color>
+    <color name="popItemNormal">#FFFFFF</color>
+    <color name="popItemSelect">#F7F7F7</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+
+    <!--日历筛选弹窗颜色-->
+    <color name="D_filter_left_btn">#000000</color>
+    <color name="D_filter_left_btn_">#E5E5E5</color>
+    <color name="D_filter_right_btn">#212121</color>
+    <color name="D_filter_item_select">#212121</color>
+    <color name="B_filter_item">#F4F4F4</color>
+    <color name="D_filter_item">#F4F4F4</color>
+    <!--打和点计算器 选项颜色-->
+    <color name="F_dhd_select">#0D0074FE</color>
+    <!--风险港股标签颜色-->
+    <color name="B_fxgg_tag">#0DF53232</color>
+
+    <!--5.2.0-->
+    <color name="T_333333_CCCCCC">#333333</color>
+    <color name="T_666666_A7A7A7">#666666</color>
+    <color name="T_999999_999999">#999999</color>
+    <color name="T_999999_666666">#999999</color>
+    <color name="T_FFFFFF_FFFFFF">#FFFFFF</color>
+    <color name="T_0074FE_3C8FF4">#0074FE</color>
+    <color name="T_F95A5A_CA4040">#F95A5A</color>
+    <color name="T_FB8B00_C96E43">#FB8B00</color>
+    <color name="T_D93B3B_CA4040">#D93B3B</color>
+    <color name="T_FFFFFF_333333">#FFFFFF</color>
+
+    <color name="B_333333_CCCCCC">#333333</color>
+    <color name="B_F9F9F9_12161E">#F9F9F9</color>
+    <color name="B_F4F4F4_1A202D">#F4F4F4</color>
+    <color name="B_F7F7F7_1A202D">#F7F7F7</color>
+    <color name="B_FFFFFF_1A202D">#1A202D</color>
+    <color name="B_6E60FF_6E60FF">#6E60FF</color>
+    <color name="B_F95A5A_CA4040">#F95A5A</color>
+    <color name="B_999999_666666">#999999</color>
+    <color name="B_EEEEEE_666666">#EEEEEE</color>
+    <color name="B_1AF95A5A_1ACA4040">#1AF95A5A</color>
+    <color name="B_0074fe_3C8FF4">#0074fe</color>
+    <color name="B_FB8B00_C96E43">#FB8B00</color>
+    <color name="B_1A0074FE_333F66A7">#1A0074FE</color>
+
+    <color name="D_CCCCCC_666666">#CCCCCC</color>
+    <color name="D_EEEEEE_303643">#EEEEEE</color>
+    <color name="D_EEEEEE_1A202D">#EEEEEE</color>
+
+</resources>

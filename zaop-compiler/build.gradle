@@ -1,0 +1,46 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish' // 添加 Maven 发布插件
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+// 设置源文件编码为 UTF-8
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(path: ':zaop-annation')
+    implementation 'com.google.auto:auto-common:1.2.1'
+    implementation ('com.google.guava:guava:24.0-jre'){
+        exclude group: 'org.checkerframework', module: 'checker-qual'
+    }
+    implementation 'org.checkerframework:checker-qual:3.49.0'
+
+    implementation('com.google.auto.service:auto-service:1.1.1'){
+        exclude group: 'com.google.guava', module: 'guava'
+    }
+    annotationProcessor 'com.google.auto.service:auto-service:1.1.1'
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.java
+
+                groupId 'com.github.huanxiang0220' // 组织ID
+                artifactId 'zaop-processor' // 项目ID
+                version '1.0.1' // 版本号
+            }
+        }
+    }
+}

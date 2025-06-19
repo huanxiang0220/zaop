@@ -1,0 +1,19 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/B1</item>
+        <item name="colorPrimary">@color/B1</item>
+        <item name="colorPrimaryDark">@color/B1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarSize">@dimen/actionBarHeight</item>
+        <!--        光标和气泡颜色    -->
+        <item name="colorControlActivated">@color/Theme1</item>
+
+        <!-- 设置之后布局中是 T_1的可以不用设置 -->
+        <item name="android:textSize">@dimen/T_1</item>
+        <item name="android:textColor">@color/T1</item>
+    </style>
+
+</resources>

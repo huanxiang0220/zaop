@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    def app = rootProject.ext.android
+    compileSdk app.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion app.minSdkVersion
+        targetSdkVersion app.targetSdkVersion
+        versionCode app.versionCode
+        versionName app.versionName
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    //仓库
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    dexOptions {
+        jumboMode true
+        javaMaxHeapSize "6g"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+task clearJar(type: Delete) {
+    delete 'build/intermediates'
+}
+
+task makeJar(type: Copy) {
+    from('build/intermediates')
+    into('build/outputs/')
+    include('classes.jar')
+    rename('classes.jar', 'okhttputils-2_6_2.jar')
+}
+
+makeJar.dependsOn(clearJar, build)
+
+//导入智能更新 SDK 的 AAR 文件
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+}

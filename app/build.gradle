@@ -1,0 +1,72 @@
+apply from: "../module.build.gradle"
+apply plugin: 'org.jetbrains.kotlin.android'
+apply plugin: 'kotlin-parcelize'
+
+apply plugin: 'com.hujiang.android-aspectjx'
+aspectjx {
+    // 排除一些第三方库的包名（Gson、 LeakCanary 和 AOP 有冲突）
+    // 否则就会起冲突：ClassNotFoundException: Didn't find class on path: DexPathList
+    //我遇到的 Execution failed for task ':app:dexBuilderDebug'.
+    //> java.util.zip.ZipException: zip file is empty
+    exclude 'androidx', 'com.google', 'com.squareup', 'com.alipay', 'com.taobao',
+            'org.apache',
+            'org.jetbrains.kotlin',
+            "module-info", 'versions.9', 'com.mobile.auth','com.hihonor.push.sdk'
+}
+
+android {
+    defaultConfig {
+        applicationId "com.zhitongcaijin.ztc"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            manifestPlaceholders = [
+                    APP_NAME: "@string/app_name",
+            ]
+
+            //渠道统计
+            applicationVariants.all {
+                variant ->
+                    variant.outputs.all {
+                        output ->
+                            outputFileName = "${variant.name}-${variant.versionName}.apk"
+                    }
+            }
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "versionCode"
+    //多渠道
+    productFlavors {
+        yingyongbao {
+
+        }
+        productFlavors.all { flavor ->
+            flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+        }
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    //开启viewBinding
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+def dps = rootProject.ext.androidDependencies
+dependencies {
+    implementation dps.constraint
+    implementation 'net.sourceforge.jexcelapi:jxl:2.6.12'
+    implementation project(path: ':zaop')
+    debugAnnotationProcessor project(path: ':zaop-compiler')
+}

@@ -1,0 +1,28 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish' // 添加 Maven 发布插件
+}
+
+// 设置源文件编码为 UTF-8
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.java
+
+                groupId 'com.github.huanxiang0220' // 组织ID
+                artifactId 'zaop-annotion' // 项目ID
+                version '1.0.1' // 版本号
+            }
+        }
+    }
+}

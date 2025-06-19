@@ -1,0 +1,52 @@
+plugins {
+    id 'com.android.library'
+    id 'maven-publish' // 添加 Maven 发布插件
+}
+
+android {
+    def app = rootProject.ext.android
+    compileSdk app.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion app.minSdkVersion
+        targetSdkVersion app.targetSdkVersion
+        versionCode app.versionCode
+        versionName app.versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+def dps = rootProject.ext.androidDependencies
+dependencies {
+    implementation dps.appcompat
+    implementation dps.recyclerview
+    api 'org.aspectj:aspectjrt:1.9.7'
+    api project(path: ':zaop-annation')
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId 'com.github.huanxiang0220' // 组织ID
+                artifactId 'zaop-runtime' // 项目ID
+                version '1.0.1' // 版本号
+            }
+        }
+    }
+
+}
