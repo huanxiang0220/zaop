@@ -107,7 +107,7 @@ public class PermissionAspect {
 
         OnPermissionListener onPermissionListener = ZAOP.getOnPermissionListener();
         String title = onPermissionListener.getPromptTitle(aContext, permission.value());
-        String desc = aContext.getString(permission.prompt());
+        String desc = ResUtils.getResourceValue(aContext, permission.prompt());
 
         //<editor-fold desc="PermissionBefore处理">
         if (PermissionUtils.isExistAnnotation(target, PermissionBefore.class)) {
@@ -226,6 +226,28 @@ public class PermissionAspect {
     static boolean isHuawei() {
         String brand = Build.BRAND;
         return !TextUtils.isEmpty(brand) && brand.equalsIgnoreCase("huawei");
+    }
+
+    static class ResUtils {
+        // 运行时获取资源 ID
+        static int getResourceId(Context context, String resName) {
+            return context.getResources().getIdentifier(resName, "string", context.getPackageName());
+        }
+
+        static String getResourceValue(Context context, String resName) {
+            int resourceId = ResUtils.getResourceId(context, resName);
+            String desc;
+            try {
+                if (resourceId == 0) {
+                    desc = context.getString(resourceId);
+                } else {
+                    desc = "Please configure the corresponding text in string.xml";
+                }
+            } catch (Exception e) {
+                desc = "Please configure the corresponding text in string.xml";
+            }
+            return desc;
+        }
     }
 
 }

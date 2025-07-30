@@ -17,8 +17,9 @@ public @interface Permission {
     /**
      * 设置华为手机申请之前的提示语
      * 注意：当注册了PermissionBefore,该参数失效，自行在PermissionBefore处理
+     * 1.0.3之后不再使用资源id，请使用string资源名称，id不可靠，
      */
-    int prompt();
+    String prompt();
 
     /**
      * 所申请的那些权限
