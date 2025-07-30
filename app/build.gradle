@@ -17,6 +17,20 @@ aspectjx {
 android {
     defaultConfig {
         applicationId "com.zhitongcaijin.ztc"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                def allResPaths = rootProject.subprojects
+                        .collect { project ->
+                            def resDir = project.file("src/main/res")
+                            resDir.exists() ? resDir.absolutePath : null
+                        }
+                        .findAll { it != null }
+                        .join(File.pathSeparator)
+
+                arguments['moduleResPaths'] = allResPaths
+            }
+        }
     }
 
     buildTypes {
