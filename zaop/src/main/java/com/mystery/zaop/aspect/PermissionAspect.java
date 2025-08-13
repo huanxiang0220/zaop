@@ -238,7 +238,7 @@ public class PermissionAspect {
             int resourceId = ResUtils.getResourceId(context, resName);
             String desc;
             try {
-                if (resourceId == 0) {
+                if (resourceId > 0) {
                     desc = context.getString(resourceId);
                 } else {
                     desc = "Please configure the corresponding text in string.xml";
