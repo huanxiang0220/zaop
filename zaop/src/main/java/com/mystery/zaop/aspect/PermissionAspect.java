@@ -199,7 +199,7 @@ public class PermissionAspect {
                         if (goBackContinue) {
                             goBackContinueActivity(context, joinPoint, permission);//内部实现onActivityResult
                         } else {
-                            PermissionUtils.startAndroidSetting((Context) joinPoint.getThis());
+                            PermissionUtils.startAndroidSetting(context);
                         }
                     });
                 }
