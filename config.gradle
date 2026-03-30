@@ -2,9 +2,9 @@ ext {
     //android
     android = [
             applicationId    : "com.zhitongcaijin.ztc",
-            compileSdkVersion: 31,
+            compileSdkVersion: 34,
             minSdkVersion    : 23,//5.0
-            targetSdkVersion : 30,//8.0
+            targetSdkVersion : 34,//8.0
             supportLibVersion: '26.1.0',
             versionCode      : 506,
             versionName      : "5.2.1",

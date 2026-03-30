@@ -1,5 +1,6 @@
 package com.mystery.zaop.aspect;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
@@ -156,7 +157,12 @@ public class PermissionAspect {
         int requestCode = permission.requestCode();
         boolean goBackContinue = permission.goBackContinue();
 
-        PermissionActivity.requestPermissionAction(context, permission.value(), requestCode, title, desc, new IPermission() {
+        String[] permissions = permission.value();
+        if (Build.VERSION.SDK_INT >= 34) {
+            permissions = replaceStoragePermissions(permissions);
+        }
+
+        PermissionActivity.requestPermissionAction(context, permissions, requestCode, title, desc, new IPermission() {
             @Override
             public void granted() {
                 try {
@@ -226,6 +232,30 @@ public class PermissionAspect {
     static boolean isHuawei() {
         String brand = Build.BRAND;
         return !TextUtils.isEmpty(brand) && brand.equalsIgnoreCase("huawei");
+    }
+
+    private String[] replaceStoragePermissions(String[] permissions) {
+        boolean hasReadStorage = false;
+        boolean hasWriteStorage = false;
+        java.util.List<String> newPermissions = new java.util.ArrayList<>();
+
+        for (String permission : permissions) {
+            if (Manifest.permission.READ_EXTERNAL_STORAGE.equals(permission)) {
+                hasReadStorage = true;
+            } else if (Manifest.permission.WRITE_EXTERNAL_STORAGE.equals(permission)) {
+                hasWriteStorage = true;
+            } else {
+                newPermissions.add(permission);
+            }
+        }
+
+        if (hasReadStorage || hasWriteStorage) {
+            newPermissions.add(Manifest.permission.READ_MEDIA_IMAGES);
+            newPermissions.add(Manifest.permission.READ_MEDIA_VIDEO);
+            newPermissions.add(Manifest.permission.READ_MEDIA_AUDIO);
+        }
+
+        return newPermissions.toArray(new String[0]);
     }
 
     static class ResUtils {
