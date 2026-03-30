@@ -20,4 +20,7 @@ public interface OnPermissionListener {
      */
     void onDenied(Context context, String title, String desc, IRationale rationale);
 
+    default String[] intercept(String[] permission) {
+        return permission;
+    }
 }

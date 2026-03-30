@@ -1,6 +1,5 @@
 package com.mystery.zaop.aspect;
 
-import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
@@ -99,15 +98,23 @@ public class PermissionAspect {
 
         final Context fContext = aContext;
 
-        boolean permissionResult = PermissionUtils.hasPermissionRequest(fContext, permission.value());
+        OnPermissionListener onPermissionListener = ZAOP.getOnPermissionListener();
+
+        String[] permissions = permission.value();
+        permissions = onPermissionListener.intercept(permissions);
+        if (Build.VERSION.SDK_INT >= 34) {
+            permissions = PermissionUtils.replaceStoragePermissions(permissions);
+        }
+        final String[] finalPermissions = permissions;
+
+        boolean permissionResult = PermissionUtils.hasPermissionRequest(fContext, permissions);
         if (permissionResult) {
             //告诉外界，已经授权
             joinPoint.proceed();
             return;
         }
 
-        OnPermissionListener onPermissionListener = ZAOP.getOnPermissionListener();
-        String title = onPermissionListener.getPromptTitle(aContext, permission.value());
+        String title = onPermissionListener.getPromptTitle(aContext, permissions);
         String desc = ResUtils.getResourceValue(aContext, permission.prompt());
 
         //<editor-fold desc="PermissionBefore处理">
@@ -118,7 +125,7 @@ public class PermissionAspect {
                 @Override
                 public void resume() {
                     try {
-                        requestPermission(joinPoint, permission, title, desc, fContext);
+                        requestPermission(joinPoint, permission, title, desc, fContext, finalPermissions);
                     } catch (Throwable e) {
                         ZLogger.e(e.getMessage());
                     }
@@ -149,18 +156,13 @@ public class PermissionAspect {
 //        //</editor-fold>
 
         //申请权限
-        requestPermission(joinPoint, permission, title, desc, aContext);
+        requestPermission(joinPoint, permission, title, desc, aContext, finalPermissions);
     }
 
-    void requestPermission(final ProceedingJoinPoint joinPoint, Permission permission, String title, String desc, Context context) throws Throwable {
+    void requestPermission(final ProceedingJoinPoint joinPoint, Permission permission, String title, String desc, Context context, String[] permissions) throws Throwable {
         Object thisObj = joinPoint.getThis();
         int requestCode = permission.requestCode();
         boolean goBackContinue = permission.goBackContinue();
-
-        String[] permissions = permission.value();
-        if (Build.VERSION.SDK_INT >= 34) {
-            permissions = replaceStoragePermissions(permissions);
-        }
 
         PermissionActivity.requestPermissionAction(context, permissions, requestCode, title, desc, new IPermission() {
             @Override
@@ -232,28 +234,6 @@ public class PermissionAspect {
     static boolean isHuawei() {
         String brand = Build.BRAND;
         return !TextUtils.isEmpty(brand) && brand.equalsIgnoreCase("huawei");
-    }
-
-    private String[] replaceStoragePermissions(String[] permissions) {
-        boolean hasReadStorage = false;
-        boolean hasWriteStorage = false;
-        java.util.List<String> newPermissions = new java.util.ArrayList<>();
-
-        for (String permission : permissions) {
-            if (Manifest.permission.READ_EXTERNAL_STORAGE.equals(permission)) {
-                hasReadStorage = true;
-            } else if (Manifest.permission.WRITE_EXTERNAL_STORAGE.equals(permission)) {
-                hasWriteStorage = true;
-            } else {
-                newPermissions.add(permission);
-            }
-        }
-
-        if (hasReadStorage || hasWriteStorage) {
-            newPermissions.add(Manifest.permission.READ_MEDIA_IMAGES);
-        }
-
-        return newPermissions.toArray(new String[0]);
     }
 
     static class ResUtils {
