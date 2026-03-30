@@ -251,8 +251,6 @@ public class PermissionAspect {
 
         if (hasReadStorage || hasWriteStorage) {
             newPermissions.add(Manifest.permission.READ_MEDIA_IMAGES);
-            newPermissions.add(Manifest.permission.READ_MEDIA_VIDEO);
-            newPermissions.add(Manifest.permission.READ_MEDIA_AUDIO);
         }
 
         return newPermissions.toArray(new String[0]);
